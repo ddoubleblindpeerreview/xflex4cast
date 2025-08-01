@@ -5,10 +5,8 @@ xflex4cast Package: Simulation and Model Fitting Examples
 # Install and load `xflex4cast`:
 
 ``` r
-# Install from source
-devtools::install("path/to/xflex4cast")
-
-# Load
+# install.packages("remotes")
+remotes::install_github("ddoubleblindpeerreview/xflex4cast")
 library(xflex4cast)
 ```
 
